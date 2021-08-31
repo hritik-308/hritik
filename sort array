@@ -1,0 +1,34 @@
+Pseudo code
+take a list as a input which we have to sort
+take a variable which contain the len the of the list
+take a blank list
+initialize the value of the index
+use while loop to check the every number im the list 
+using min we use to retirive the  minimum value of the list
+then append its suceeding minimum value
+delete minimum from the list and save the deleted element to the blank list
+then print the new list we will get the sorted array
+
+
+
+
+
+
+
+
+
+
+
+
+
+a     = [12,0,39,50,1]   
+kk    = len(a)
+new_a = []
+i     = 0
+
+while i < kk:
+    xx = min(a)      
+    new_a.append(xx) 
+    a.remove(xx)     
+    i += 1           
+print(new_a)
